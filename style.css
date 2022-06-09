@@ -1,0 +1,125 @@
+body {
+    font-family: "Nunito Sans", "Times New Roman", Times, sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Nunito Sans";
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.button-large {
+    padding: 20px 42px;
+    margin: 20px 20px 20px 0px;
+}
+
+.button-empty {
+    border: 2px solid #FFFFFF;
+    background:rgba(0, 0, 0, 0.0);
+    padding: 18px 40px;
+}
+
+.title {
+    margin: 0;
+    font-family: "Yeseva One", "Times New Roman", Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subtitle {
+
+}
+
+.input {
+
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.word-gold {
+    color: #E3B873;
+}
+
+.header {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation-item {
+    margin-right: 47px;
+}
+
+.header-navigation-item-anchor {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-navigation-item-anchor-first {
+    text-decoration: none;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+.hero {
+    background-image: url('img/background-1.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.paragraph-middle {
+    font-size: 22px;
+    line-height: 36px;
+    font-style: normal;
+    margin: 19px 0;
+    color: white;
+}
