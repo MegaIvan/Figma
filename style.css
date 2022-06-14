@@ -2,10 +2,7 @@ body {
     font-family: "Nunito Sans", "Times New Roman", Times, sans-serif;
     margin: 0;
     font-size: 14px;
-}
-
-body * {
-    box-sizing: border-box;
+    background-color: white;
 }
 
 .container {
@@ -39,6 +36,11 @@ body * {
     margin: 20px 20px 20px 0px;
 }
 
+.button-form {
+    padding: 20px 75px;
+    margin: 0px;
+}
+
 .button-empty {
     border: 2px solid #FFFFFF;
     background:rgba(0, 0, 0, 0.0);
@@ -70,7 +72,23 @@ body * {
 }
 
 .input {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+    border: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
 
+.input-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
 }
 
 .logo {
@@ -117,6 +135,7 @@ body * {
     height: 707px;
     padding-top: 194px;
     position: relative;
+    box-sizing: border-box;
 }
 
 .hero-overlay {
@@ -139,8 +158,9 @@ body * {
 
 .com-pro {
     background-color: #131313;
-    height: 750px;
+    height: auto;
     padding-top: 107px;
+    padding-bottom: 416px;
 }
 
 .com-pro-hotels-navigation {
@@ -265,4 +285,135 @@ body * {
     height: 13.28px;
     background-repeat: no-repeat;
     background-image: url('img/arrow-right.svg');
+}
+
+.online-control {
+    padding: 0px;
+    height: 2000px;
+    margin-top: -416px;
+}
+
+.online-control-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 0px;
+    padding-top: 92px;
+}
+
+.online-control-camera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    margin: 12.79px auto 31.21px;
+}
+
+.camera-svg {
+    width: 32.77px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-image: url('img/Camera.svg');
+}
+
+.camera-line {
+    width: 32px;
+    height: 1.54px;
+    background-repeat: no-repeat;
+    background-image: url('img/horizontal-line.svg');
+}
+
+.online-control-background {
+    width: 817px;
+    height: 434px;
+    background-repeat: no-repeat;
+    background-image: url('img/Background-3.png');
+    margin: 0px auto;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+.online-control-background-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-control-background-line {
+    width: 55px;
+    margin: 62px auto 34.46px;
+    border: 0;
+    border-top: 1px solid;
+    border-color: #E3B873;
+}
+
+.online-control-paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    width: 681px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.online-control-play {
+    width: 85px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-image: url('img/play-icon.svg');
+    background-position-x: center;
+    background-position-y: -25px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.online-control-form {
+    width: 750px;
+    height: auto;
+    margin: 91.5px auto 0px;
+}
+
+.online-control-form-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.online-control-checkbox {
+    margin: 39px auto 0px;
+    width: max-content;
+}
+
+.label {
+    cursor: pointer;
+}
+.checkbox{
+    display: none;
+}
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.checkbox:checked + .fake::before{
+    opacity: 1;
 }
