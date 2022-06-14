@@ -13,6 +13,11 @@ body * {
     margin: 0 auto;
 }
 
+.container-short {
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -52,7 +57,16 @@ body * {
 }
 
 .subtitle {
-
+    margin: 0;
+    font-family: 'Yeseva One', "Times New Roman", Times, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: white;
 }
 
 .input {
@@ -68,7 +82,7 @@ body * {
 }
 
 .header {
-    background-color: black;
+    background-color: #131313;
 }
 
 .header-content {
@@ -87,17 +101,16 @@ body * {
     margin-right: 47px;
 }
 
-.header-navigation-item-anchor {
+.header-navigation-item a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
 
-.header-navigation-item-anchor-first {
-    text-decoration: none;
+.header-navigation-item:nth-of-type(1) a {
     color: #E3B873;
-    text-transform: uppercase;
 }
+
 .hero {
     background-image: url('img/background-1.jpg');
     background-size: cover;
@@ -122,4 +135,134 @@ body * {
     font-style: normal;
     margin: 19px 0;
     color: white;
+}
+
+.com-pro {
+    background-color: #131313;
+    height: 750px;
+    padding-top: 107px;
+}
+
+.com-pro-hotels-navigation {
+    list-style: none;
+    display: flex;
+    margin: 0px 0px 0px auto;
+    padding: 0px 0px 0px 0px;
+    width: 679px;
+    justify-content: space-between;
+}
+
+.com-pro-hotels-navigation-item {
+    margin-right: 0px;
+    padding: 10px 0px;
+    border-width: 1px;
+    border-bottom: solid;
+    border-color: #131313;
+}
+
+.com-pro-hotels-navigation-item a {
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.com-pro-hotels-navigation-item:nth-of-type(1) {
+    border-bottom: solid;
+    border-color: #E3B873;
+    border-bottom-width: 1px;
+}
+
+.com-pro-hotels-navigation-item:nth-of-type(1) a {
+    color: #E3B873;
+}
+
+.com-pro-double-container {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-pro-double-first {
+    width: 442px;
+    display: flex;
+    flex-direction: column;
+}
+
+.com-pro-double-second {
+    width: 679px;
+    height: 482px;
+    background-image: url('img/background-2.png');
+}
+
+.com-pro-paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 34px;
+    margin-bottom: 42px;
+}
+
+.com-pro-grid {
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 107px 107px;
+}
+
+.com-pro-grid-headers {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin: 0px 0px 9px 0px;
+}
+
+.com-pro-grid-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.com-pro-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.com-pro-arrow-left {
+    width: 42px;
+    height: 13.28px;
+    background-repeat: no-repeat;
+    background-image: url('img/arrow-left.svg');
+}
+
+.com-pro-circles {
+    width: 66px;
+    height: 13.27px;
+    background-repeat: no-repeat;
+    background-image: url('img/circles.svg');
+    background-position: center;
+}
+
+.com-pro-arrow-right {
+    width: 42px;
+    height: 13.28px;
+    background-repeat: no-repeat;
+    background-image: url('img/arrow-right.svg');
 }
