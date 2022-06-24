@@ -86,6 +86,12 @@ body {
     color: #363636;
     border: 0;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    background-color: rgba(255, 255, 255, 0.0);
+    width: 100%;
+}
+
+.input-light {
+    color: #FFFFFF;
 }
 
 .input-label {
@@ -95,6 +101,10 @@ body {
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
+}
+
+.input-label-light {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .logo {
@@ -397,6 +407,10 @@ body {
     justify-content: space-between;
 }
 
+.online-control-form-items {
+    width: 231px;
+}
+
 .online-control-checkbox {
     margin: 39px auto 0px;
     width: max-content;
@@ -427,7 +441,7 @@ body {
 
 .types-of-repair {
     padding-top: 75.85px;
-    height: 1000px;
+    height: max-content;
 }
 
 .types-of-repair-header {
@@ -456,6 +470,11 @@ body {
     justify-content: space-around;
 }
 
+.single-room {
+    height: auto;
+    margin: 0px;
+}
+
 .room {
     width: 392px;
     height: 421px;
@@ -478,7 +497,7 @@ body {
     background-color: white;
     width: 330px;
     height: 286px;
-    margin: 294px auto 0px;
+    margin: -127px auto 0px;
 }
 
 .rooms-header {
@@ -519,8 +538,141 @@ body {
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
     width: 228px;
     height: 54px;
-    margin-top: 5px;
+    margin-top: -27px;
+    margin-left: 31px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rooms-background {
+    background-image: url('img/background-4.png');
+    height: 538px;
+    margin-top: 124px;
+    background-repeat: no-repeat;
+    background-position-x: -140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 59px;
+}
+
+.rooms-background-left {
+    width: max-content;
+    height: 509px;
+}
+
+.rooms-background-right {
+    width: 506px;
+    height: 509px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+
+.rooms-background-left-number-block {
+    height: 57.76px;
+    padding-left: 209px; 
+    margin-bottom: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.rooms-background-left-number-circle {
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    width: 41.76px;
+    height: 41.76px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rooms-background-left-number {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rooms-background-left-number-block-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #363636;
+    height: max-content;
+    width: 326px;
+    padding-left: 14.24px;
+}
+
+.rooms-background-form {
+    width: 506px;
+    height: 509px;
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+
+.rooms-background-form-items {
+   margin-top: 48px;
+}
+
+.rooms-background-form-header {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 297px;
+    margin: 0px auto 39px;
+}
+
+.rooms-background-form-checkbox {
+    margin: 0px;
+    width: max-content;
+    margin-top: 16px;
+    margin-bottom: 39px;
+}
+
+.pig-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px 25px 0px auto;
+    width: 434px;
+}
+
+.pig-image {
+    background: #E3B873;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    background-image: url('img/pig.svg');
+    background-repeat: no-repeat;
+    background-position: 18px 18px;
+}
+
+.pig-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    padding-left: 25px;
 }
