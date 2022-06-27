@@ -128,6 +128,8 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 83px;
+    padding: 0px 92px;
+    box-sizing: border-box;
 }
 
 .header-navigation {
@@ -153,19 +155,18 @@ body {
     background-image: url('img/background-1.jpg');
     background-size: cover;
     height: 707px;
-    padding-top: 194px;
-    position: relative;
     box-sizing: border-box;
 }
 
 .hero-overlay {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
+    height: 707px;
+}
+
+.hero-content {
+    padding: 0px 134px;
+    box-sizing: border-box;
+    padding-top: 194px;
 }
 
 .paragraph-middle {
@@ -179,8 +180,13 @@ body {
 .com-pro {
     background-color: #131313;
     height: auto;
-    padding-top: 107px;
     padding-bottom: 416px;
+}
+
+.com-pro-content {
+    padding: 0px 134px;
+    box-sizing: border-box;
+    padding-top: 107px;
 }
 
 .com-pro-hotels-navigation {
@@ -933,6 +939,7 @@ body {
 }
 
 .map {
+    background-color: #131313;
     background-repeat: no-repeat;
     background-image: url('img/background-7.png');
     background-size: cover;
@@ -1032,6 +1039,7 @@ body {
 .map-image {
     margin: 0px auto;
     margin-top: 43px;
+    padding-bottom: 65.93px;
     width: 925px;
     height: 466px;
     background-repeat: no-repeat;
@@ -1044,4 +1052,120 @@ body {
 
 .footer-content {
     height: 133px;
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    .header-content {
+        padding: 0px 18px;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .header-content a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .hero-content {
+        padding: 0px 18px;
+        padding-top: 85px;
+    }
+
+    .title {
+        font-size: 23px;
+        line-height: 132.83%;
+        width: 339px;
+        margin: 0px auto;
+    }
+
+    .subtitle {
+        font-size: 22px;
+        line-height: 138.6%;
+        width: 339px;
+        padding-top: 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .paragraph-middle {
+        font-size: 14px;
+        line-height: 135.84%;
+        width: 339px;
+        margin: 0px auto;
+    }
+
+    .button {
+       width: 100%;
+    }
+
+    .hero {
+        height: 476px;
+        background-size: auto;
+    }
+    
+    .hero-overlay {
+        height: 476px;
+    }
+
+    .com-pro-content {
+        padding: 0px 18px;
+        padding-top: 36px;
+    }
+
+    .com-pro-hotels-navigation {
+        display: none;
+    }
+
+    .com-pro-double-container {
+        padding: 0px;
+        width: auto;
+        display: block;
+    }
+
+    .com-pro-double-first {
+        width: auto;
+        display: block;
+    }
+
+    .com-pro-double-second {
+        display: none;
+    }
+
+    .com-pro-paragraph {
+        width: 339px;
+        margin: 0px auto;
+        margin-top: 22px;
+        font-size: 11px;
+        line-height: 158.48%;
+        height: 86px;
+        text-align: center;
+    }
+
+    .com-pro-grid {
+        grid-template-columns: 160px 160px;
+        grid-template-rows: 68px 68px;
+        margin: 0px auto;
+        width: 339px;
+    }
+
+    .com-pro-grid-headers {
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+
+    .com-pro-grid-text {
+        font-size: 11px;
+        line-height: 135.84%;
+    }
 }
