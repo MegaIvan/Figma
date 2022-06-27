@@ -94,6 +94,10 @@ body {
     color: #FFFFFF;
 }
 
+.input-light::placeholder {
+    color: #FFFFFF;
+}
+
 .input-label {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -782,7 +786,7 @@ body {
 
 .our-clients {
     padding-top: 110.47px;
-    height: 800px;
+    height: max-content;
 }
 .our-clients-hands {
     width: 114px;
@@ -918,3 +922,126 @@ body {
     background-image: url('img/note.svg');
 }
 
+.our-clients-background {
+    background-repeat: repeat-x;
+    background-image: url('img/background-6.svg');
+    height: max-content;
+}
+.our-clients-background-overlay {
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 354px;
+}
+
+.map {
+    background-repeat: no-repeat;
+    background-image: url('img/background-7.png');
+    background-size: cover;
+}
+
+.map-overlay {
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    height: max-content;
+}
+
+.map-form {
+    width: 883px;
+    height: 445.32px;
+    background: #181818;
+    margin: 0px auto;
+    padding-top: 34.4px;
+    padding-left: 181.5px;
+    padding-right: 181.5px;
+    box-sizing: border-box;
+}
+
+.map-form-header {
+    padding: 0px;
+}
+
+.map-form-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45.84px;
+    justify-content: space-between;
+}
+
+.map-form-up-containers {
+    width: 231px;
+}
+
+.map-form-question {
+    margin-top: 48.76px;
+}
+
+.map-form-form-checkbox {
+    margin: 0px auto;
+    width: max-content;
+    margin-top: 48.23px;
+    margin-bottom: 50.45px;
+}
+
+.map-form-button {
+    padding: 20px 84px;
+    margin: 0px;
+}
+
+.map-header {
+    color: #E3B873;
+    margin: 0px auto;
+    margin-top: 52.01px;
+    padding: 0px;
+
+}
+
+.map-email-inst {
+    margin: 26px auto 0px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    width: 71px;
+    justify-content: space-between;
+}
+
+.email-inst-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    width: 28px;
+    height: 28px;
+    background-color: #E3B873;
+    border-radius: 50%;
+}
+
+.email-svg {
+    height: 28px;
+    width: 28px;
+    background-repeat: no-repeat;
+    background-image: url('img/email.svg');
+    background-position: 6.5px 7px;
+}
+
+.inst-svg {
+    height: 28px;
+    width: 28px;
+    background-repeat: no-repeat;
+    background-image: url('img/inst.svg');
+    background-position: 6.5px 7px;
+}
+
+.map-image {
+    margin: 0px auto;
+    margin-top: 43px;
+    width: 925px;
+    height: 466px;
+    background-repeat: no-repeat;
+    background-image: url('img/map.png');
+}
+
+.footer {
+    background-color: #131313;
+}
+
+.footer-content {
+    height: 133px;
+}
