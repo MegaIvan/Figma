@@ -676,3 +676,119 @@ body {
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
     padding-left: 25px;
 }
+
+.wild-fantasy-background {
+    margin-top: 242px;
+    background-image: url('img/background-5.png');
+    height: 864px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+    box-sizing: border-box; */
+}
+
+.wild-fantasy {
+    display: flex;
+    height: 864px;
+}
+
+.wild-fantasy-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.wild-fantasy-left {
+    width: 411px;
+    margin-left: 99px;
+    margin-top: 137.47px;
+    margin-right: 77px;
+}
+
+.wild-fantasy-middle {
+    width: max-content;
+    margin-right: 43px;
+}
+
+.wild-fantasy-right {
+    width: max-content;
+}
+
+.wild-fantasy-list {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px; 
+    color: #FFFFFF;
+
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 47px;
+}
+
+.wild-fantasy-list-item {
+    margin-bottom: 15px;
+    width: max-content;
+}
+
+.wild-fantasy-list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.wild-fantasy-list-item:nth-of-type(1) a {
+    color: #E3B873;
+}
+
+.wild-fantasy-list-item:nth-of-type(1) {
+    border-bottom: solid 1px #E3B873;
+}
+
+
+.wild-fantasy-image-1 {
+    background-image: url('img/wild-fantasy-1.png');
+    width: 354px;
+    height: 557.88px;
+    background-repeat: no-repeat;
+    margin-top: -41.16px;
+    margin-bottom: 39.1px;
+}
+
+.wild-fantasy-image-2 {
+    background-image: url('img/wild-fantasy-2.png');
+    width: 354px;
+    height: 349.37px;
+    background-repeat: no-repeat;
+}
+
+.wild-fantasy-image-3 {
+    background-image: url('img/wild-fantasy-3.png');
+    width: 354px;
+    height: 275px;
+    background-repeat: no-repeat;
+    margin-top: -112.53px;
+    margin-bottom: 37px;
+}
+
+.wild-fantasy-image-4 {
+    background-image: url('img/wild-fantasy-4.png');
+    width: 354px;
+    height: 624.88px;
+    background-repeat: no-repeat;
+}
+
+.our-clients {
+    padding-top: 110.47px;
+    height: 800px;
+}
+.our-clients-hands {
+    width: 114px;
+    height: 27.62px;
+    background-repeat: no-repeat;
+    background-image: url('img/hands.svg');
+    margin: 0px auto;
+    margin-top: 13.22px;
+}
