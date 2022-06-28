@@ -468,8 +468,13 @@ body {
 }
 
 .types-of-repair {
-    padding-top: 75.85px;
     height: max-content;
+}
+
+.types-of-repair-content {
+    box-sizing: border-box;
+    padding: 0px 100px;
+    padding-top: 75.85px;
 }
 
 .types-of-repair-header {
@@ -708,28 +713,28 @@ body {
 .wild-fantasy-background {
     margin-top: 242px;
     background-image: url('img/background-5.png');
-    height: 864px;
+    height: 939.85px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-size: cover;
-    height: 707px;
-    padding-top: 194px;
-    position: relative;
-    box-sizing: border-box; */
 }
 
 .wild-fantasy {
     display: flex;
-    height: 864px;
 }
 
 .wild-fantasy-overlay {
     background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.wild-fantasy-content {
+    box-sizing: border-box;
+    padding: 0px 100px;
+    padding-top: 75.85px;
 }
 
 .wild-fantasy-left {
     width: 411px;
-    margin-left: 99px;
     margin-top: 137.47px;
     margin-right: 77px;
 }
@@ -809,9 +814,15 @@ body {
 }
 
 .our-clients {
-    padding-top: 110.47px;
     height: max-content;
 }
+
+.our-clients-content {
+    box-sizing: border-box;
+    padding: 0px 100px;
+    padding-top: 110.47px;
+}
+
 .our-clients-hands {
     width: 114px;
     height: 27.62px;
@@ -849,10 +860,6 @@ body {
     box-sizing: border-box;
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
-}
-
-.our-clients-person-with-time-block {
-
 }
 
 .our-clients-person-up {
@@ -953,11 +960,11 @@ body {
 }
 .our-clients-background-overlay {
     background-color: rgba(255, 255, 255, 0.95);
-    height: 354px;
+    height: 381px;
 }
 
 .map {
-    background-color: #131313;
+    background-color: rgba(255, 255, 255, 0.0);
     background-repeat: no-repeat;
     background-image: url('img/background-7.png');
     background-size: cover;
@@ -965,7 +972,13 @@ body {
 
 .map-overlay {
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
-    height: max-content;
+    height: 100%;
+}
+
+.map-content {
+    box-sizing: border-box;
+    padding: 0px 100px;
+    padding-top: 50.00px;
 }
 
 .map-form {
@@ -977,6 +990,7 @@ body {
     padding-left: 181.5px;
     padding-right: 181.5px;
     box-sizing: border-box;
+    margin-top: -272px;
 }
 
 .map-form-header {
@@ -1318,5 +1332,72 @@ body {
 
     .online-control-form-items:nth-of-type(2) {
         margin-top: 61px
+    }
+
+    .types-of-repair-content {
+        padding: 0px 18px;
+    }
+
+    .rooms-container {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1650px;
+    }
+
+    .room {
+        width: 340px;
+        height: 365px;
+        background-repeat: no-repeat;
+    }
+    
+    .single-room {
+        width: max-content;
+        margin: 0px auto;
+    }
+
+    .room-1 {
+        background-image: url('img/room-1.jpg');
+    }
+    
+    .room-2 {
+        background-image: url('img/room-2.jpg');
+    }
+    
+    .room-3 {
+        background-image: url('img/room-3.jpg');
+    }
+
+    .room-description {
+        background-color: white;
+        width: 270px;
+        height: 241px;
+        margin: -127px auto 0px;
+        margin-left: 0px;
+    }
+
+    .rooms-header {
+        padding-left: 31px;
+        padding-top: 21px;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .rooms-ul {
+        padding-left: 45px;
+        padding-top: 10px;
+        font-size: 13px;
+        line-height: 169.8%;
+    }
+
+    .room-cost {
+        margin-left: 0px;
+    }
+
+    .rooms-background {
+        display: none;
+    }
+
+    .pig-block {
+        display: none;
     }
 }
