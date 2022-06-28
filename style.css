@@ -733,6 +733,10 @@ body {
     padding-top: 75.85px;
 }
 
+.wild-fantasy-mobile-image {
+    display: none;;
+}
+
 .wild-fantasy-left {
     width: 411px;
     margin-top: 137.47px;
@@ -993,6 +997,7 @@ body {
     margin-top: -272px;
 }
 
+
 .map-form-header {
     padding: 0px;
 }
@@ -1019,6 +1024,11 @@ body {
     margin-bottom: 50.45px;
 }
 
+.map-form-button-div {
+    margin: 0px auto; 
+    width: max-content;
+}
+
 .map-form-button {
     padding: 20px 84px;
     margin: 0px;
@@ -1029,7 +1039,10 @@ body {
     margin: 0px auto;
     margin-top: 52.01px;
     padding: 0px;
+}
 
+.map-header-mobile {
+    display: none;
 }
 
 .map-email-inst {
@@ -1050,6 +1063,10 @@ body {
     height: 28px;
     background-color: #E3B873;
     border-radius: 50%;
+}
+
+.map-email-inst-mobile {
+    display: none;
 }
 
 .email-svg {
@@ -1399,5 +1416,170 @@ body {
 
     .pig-block {
         display: none;
+    }
+
+    .wild-fantasy-background {
+        margin-top: 266px;
+        height: max-content;
+    }
+
+    .wild-fantasy-overlay {
+        background-image: none;
+        background: #181818;
+    }
+
+    .wild-fantasy {
+        display: block;
+    }
+
+    .wild-fantasy-content {
+        padding: 0px 18px;
+        padding-top: 10px;
+    }
+
+    .wild-fantasy-middle {
+        display: none;
+    }
+
+    .wild-fantasy-right {
+        display: none;
+    }
+
+    .wild-fantasy-left {
+        margin: 0px auto;
+        display: block;
+        width: auto;
+    }
+
+    .wild-fantasy-title {
+        width: 250px;
+        margin-top: -163px;
+    }
+
+    .wild-fantasy-list {
+        display: none;
+    }
+
+    .wild-fantasy-mobile-image {
+        display: flex;
+        width: 340px;
+        height: 242px;
+        background-repeat: no-repeat;
+        background-image: url('img/background-5.png');
+        background-size: cover;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .our-clients {
+        display: none;
+    }
+
+    .map-content {
+        padding: 0px 18px;
+    }
+
+    .map-overlay {
+        background: #181818;
+    }
+
+    .map-form {
+        margin: 0px auto;
+        padding: 0px 0px;
+        width: auto;
+        height: max-content;
+    }
+
+    .map-form-header {
+        padding-top: 58px;
+        padding-bottom: 52px;
+    }
+
+    .map-form-container {
+        display: block;
+        margin: 0px auto;
+    }
+
+    .map-form-up-containers {
+        width: auto;
+    }
+
+    .map-form-up-containers:nth-of-type(2) {
+        margin-top: 63px;
+    }
+
+    .map-form-question {
+        margin-top: 63px;
+    }
+
+    .map-form-form-checkbox {
+        margin-top: 22px;
+        margin-left: 0px;
+        margin-bottom: 67px;
+    }
+
+    .map-form-button-div {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .map-form-button {
+        margin: 0px;
+    }
+
+    .map-header {
+        width: auto;
+        margin: 0px auto;
+        padding: 0px;
+        display: none;
+    }
+
+    .map-email-inst {
+        display: none;
+    }
+    .map-header-mobile {
+        display: block;
+    }
+
+    .map-image {
+        margin: 0px auto;
+        margin-top: 43px;
+        margin-bottom: 43px;
+        height: 200px;
+        background-size: cover;
+        width: auto;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .map-email-inst-mobile {
+        display: flex;
+        padding-bottom: 49px;
+        width: 100px;
+    }
+    .email-inst-block {
+        width: 39px;
+        height: 39px;
+    }
+
+    .email-svg {
+        height: 39px;
+        width: 39px;
+        background-repeat: no-repeat;
+        background-image: url('img/email.svg');
+        background-position: 8px 9px;
+        background-size: 60%;
+    }
+    
+    .inst-svg {
+        height: 39px;
+        width: 39px;
+        background-repeat: no-repeat;
+        background-image: url('img/inst.svg');
+        background-position: 8px 7px;
+        background-size: 60%;
     }
 }
