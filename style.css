@@ -116,7 +116,7 @@ body {
 }
 
 .word-gold {
-    color: #E3B873;
+    color: #E3B873 !important;
 }
 
 .header {
@@ -206,7 +206,7 @@ body {
     border-color: #131313;
 }
 
-.com-pro-hotels-navigation-item a {
+.com-pro-hotels-navigation-item div {
     text-decoration: none;
     font-family: 'Yeseva One';
     font-style: normal;
@@ -217,14 +217,14 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
-.com-pro-hotels-navigation-item:nth-of-type(1) {
+.com-pro-hotels-navigation-item div:hover {
+    cursor: pointer;
+}
+
+.com-pro-hotels-navigation-item-gold {
     border-bottom: solid;
     border-color: #E3B873;
     border-bottom-width: 1px;
-}
-
-.com-pro-hotels-navigation-item:nth-of-type(1) a {
-    color: #E3B873;
 }
 
 .com-pro-double-container {
@@ -242,7 +242,7 @@ body {
 .com-pro-double-second {
     width: 679px;
     height: 482px;
-    background-image: url('img/background-2.png');
+    background-image: url('img/rostov-admiral.png');
 }
 
 .com-pro-paragraph {
@@ -306,12 +306,25 @@ body {
     background-image: url('img/arrow-left.svg');
 }
 
+.com-pro-circle {
+    width: 9.57px;
+    height: 9.57px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.white {
+    background-color: white;
+}
+
+.com-pro-circle:hover {
+    cursor: pointer;
+}
+
 .com-pro-circles {
     width: 66px;
-    height: 13.27px;
-    background-repeat: no-repeat;
-    background-image: url('img/circles.svg');
-    background-position: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .com-pro-arrow-right {
@@ -319,6 +332,10 @@ body {
     height: 13.28px;
     background-repeat: no-repeat;
     background-image: url('img/arrow-right.svg');
+}
+
+.com-pro-arrow-left:hover, .com-pro-arrow-right:hover {
+    cursor: pointer;
 }
 
 .online-control {

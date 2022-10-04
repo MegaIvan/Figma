@@ -48,10 +48,10 @@
             </section>
             <section class="com-pro">
                 <div class="container com-pro-content">
-                    <ul class="com-pro-hotels-navigation">
-                        <li class="com-pro-hotels-navigation-item"><a href="#">Rostov-on-Don, Admiral</a></li>
-                        <li class="com-pro-hotels-navigation-item"><a href="#">Sochi Thieves</a></li>
-                        <li class="com-pro-hotels-navigation-item"><a href="#">Rostov-on-Don Patriotic</a></li>
+                    <ul class="com-pro-hotels-navigation" id="hotels-navigation">
+                        <li class="com-pro-hotels-navigation-item com-pro-hotels-navigation-item-gold" id="hotel-1"><div class="word-gold">Rostov-on-Don, Admiral</div></li>
+                        <li class="com-pro-hotels-navigation-item" id="hotel-2"><div>Sochi Thieves</div></li>
+                        <li class="com-pro-hotels-navigation-item" id="hotel-3"><div>Rostov-on-Don Patriotic</div></li>
                     </ul>
                     <div class="com-pro-double-container">
                         <div class="com-pro-double-first">
@@ -68,15 +68,15 @@
                             <div class="com-pro-grid">
                                 <div>
                                     <h3 class="com-pro-grid-headers">City:</h3>
-                                    <span class="com-pro-grid-text">Rostov-on-Don<br>LCD admiral</span>
+                                    <span class="com-pro-grid-text city">Rostov-on-Don<br>LCD admiral</span>
                                 </div>
                                 <div >
                                     <h3 class="com-pro-grid-headers">Apartment area:</h3>
-                                    <span class="com-pro-grid-text">81m<sup>2</sup></span>
+                                    <span class="com-pro-grid-text area">81m2</span>
                                 </div>
                                 <div>
                                     <h3 class="com-pro-grid-headers">Repair time:</h3>
-                                    <span class="com-pro-grid-text">3.5 months</span>
+                                    <span class="com-pro-grid-text repair-time">3.5 months</span>
                                 </div>
                                 <div>
                                     <h3 class="com-pro-grid-headers">Repair cost:</h3>
@@ -84,12 +84,16 @@
                                 </div>
                             </div>
                             <div class="com-pro-arrows">
-                                <a class="com-pro-arrow-left" href="#"></a>
-                                <a class="com-pro-circles"></a>
-                                <a class="com-pro-arrow-right" href="#"></a>
+                                <div class="com-pro-arrow-left"></div>
+                                <div class="com-pro-circles" id="circles">
+                                    <div class="com-pro-circle white" id="circle-1"></div>
+                                    <div class="com-pro-circle" id="circle-2"></div>
+                                    <div class="com-pro-circle" id="circle-3"></div>
+                                </div>
+                                <div class="com-pro-arrow-right"></div>
                             </div>
                         </div>
-                        <div class="com-pro-double-second">
+                            <div class="com-pro-double-second">
                         </div>
                     </div>
                 </div>
@@ -384,7 +388,7 @@
                         <div class="our-clients-person-with-time-block">
                             <div class="our-clients-person">
                                 <div class="our-clients-person-up">
-                                    <div class="our-clients-person-avatar our-clients-person-avatar-1"></div>
+                                    <div class="our-clients-person-avatar our-clients-person-avatar-3"></div>
                                     <div class="our-clients-person-name">Kiriev Egor Leonidovich</div>
                                 </div>
                                 <p class="our-clients-person-paragraph">
@@ -488,5 +492,6 @@
                 <button class="button">Request a call</button>
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
